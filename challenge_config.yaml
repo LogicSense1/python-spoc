@@ -11,7 +11,7 @@ leaderboard_description: Python SPOC Sentiment Analysis Challenge
 evaluation_script: evaluation_script.zip
 remote_evaluation: False
 is_docker_based: False
-start_date: 2022-07-01 00:00:00
+start_date: 2022-06-01 00:00:00
 end_date: 2099-07-31 23:59:59
 published: True
 
