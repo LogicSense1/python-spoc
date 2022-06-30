@@ -49,21 +49,25 @@ def evaluate(test_annotation_file, user_submission_file, phase_codename, **kwarg
         predictions[i] = int(predictions[i].strip())
     if len(labels) != len(predictions):
         return 0
+    positive_total = 0
+    negative_total = 0
     positive_correct = 0
     negative_correct = 0
     total_correct = 0
     for i in range(len(labels)):
+        if labels[i] == 1:
+            positive_total += 1
+        else:
+            negative_total += 1
         if labels[i] == predictions[i]:
             if labels[i] == 1:
                 positive_correct += 1
             else:
                 negative_correct += 1
             total_correct += 1
-    positive = positive_correct / len(labels)
-    negative = negative_correct / len(labels)
-    total = total_correct / len(labels)
-
-            
+    positive = positive_correct / positive_total
+    negative = negative_correct / negative_total
+    total = total_correct / len(labels)  
     output = {}
     if phase_codename == "dev":
         print("Evaluating for Dev Phase")
