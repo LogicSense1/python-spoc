@@ -11,7 +11,7 @@ leaderboard_description: Python SPOC Sentiment Analysis Challenge
 evaluation_script: evaluation_script.zip
 remote_evaluation: False
 is_docker_based: False
-start_date: 2022-07-01 00:00:00
+start_date: 2022-06-01 00:00:00
 end_date: 2022-07-31 23:59:59
 published: True
 
@@ -102,12 +102,12 @@ challenge_phase_splits:
   - challenge_phase_id: 2
     leaderboard_id: 1
     dataset_split_id: 1
-    visibility: 3
+    visibility: 1
     leaderboard_decimal_precision: 2
     is_leaderboard_order_descending: True
   - challenge_phase_id: 2
     leaderboard_id: 1
     dataset_split_id: 2
-    visibility: 1
+    visibility: 3
     leaderboard_decimal_precision: 2
     is_leaderboard_order_descending: True
