@@ -1,5 +1,5 @@
 {
 	"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY4ODIyNTk0MiwianRpIjoiNzg3MjIyNjc4ODMyNDkzZTk0MTQ2OGIxZWYzOGRkMmUiLCJ1c2VyX2lkIjoyfQ.0VqFJ1Jdi3UMzADZGxDeTts1sYNP4fQVe-vFAc_O7uA",
 	"team_pk": "1",
-	"evalai_host_url": "http://20.244.2.141:8000"
+	"evalai_host_url": "http://20.244.2.141"
 }
