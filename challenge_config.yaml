@@ -9,8 +9,8 @@ image: logo.jpg
 submission_guidelines: templates/submission_guidelines.html
 leaderboard_description: Python SPOC Sentiment Analysis Challenge
 evaluation_script: evaluation_script.zip
-remote_evaluation: False
-is_docker_based: False
+remote_evaluation: True
+is_docker_based: True
 start_date: 2022-06-01 00:00:00
 end_date: 2022-07-31 23:59:59
 published: True
